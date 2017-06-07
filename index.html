@@ -27,8 +27,6 @@ and open the template in the editor.
         <script>
 
     $('#decrypt').click(function() {
-        
-        alert("click");
 
         var k = $('#key').val(); // "Secret Passphrase"
 
@@ -39,6 +37,8 @@ and open the template in the editor.
         $.post("decr.php", {}, function(data) {
 
             var d = data.toString();
+            
+             alert("click");
             
           //  var id = "name";
             var id = ["knowleges_ex","langs","ls"];
