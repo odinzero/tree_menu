@@ -1,5 +1,4 @@
-<?php
-?> 
+
 
 <div id="name">U2FsdGVkX199jgwYAYv0UjNHzTD3+wnOrmwEzqtQQI5FjI4kRQFofVP1K57N5ILW8z8nTkxYSD+q85Q3rlPv0ai9sBszB6y+UskmsQg509Y=</div>
 <div id="city">U2FsdGVkX1+FUfKZfIkCHBubzGiuqamy9/5iNqdYaggZwaks650h/MdrKYBd96Pz</div>
