@@ -18,7 +18,8 @@ and open the template in the editor.
         <p id="derror" style="color:red"></p>
         
         <div id="e_resume">
-          <div></div>
+          <div id="name">U2FsdGVkX199jgwYAYv0UjNHzTD3+wnOrmwEzqtQQI5FjI4kRQFofVP1K57N5ILW8z8nTkxYSD+q85Q3rlPv0ai9sBszB6y+UskmsQg509Y=</div>
+          <div id="city">U2FsdGVkX1+FUfKZfIkCHBubzGiuqamy9/5iNqdYaggZwaks650h/MdrKYBd96Pz</div>
         </div>
         
         <div id="d_result">
@@ -34,7 +35,7 @@ and open the template in the editor.
         {
         $('#derror').text("");
          
-        $.post("decr.php", {}, function(data) {
+      //  $.post("decr.php", {}, function(data) {
 
             var d = data.toString();
             
@@ -54,7 +55,7 @@ and open the template in the editor.
                 alert("pass key is wrong !");
             }
 
-        });
+       // });
        } 
        else 
        {
