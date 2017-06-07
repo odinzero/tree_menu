@@ -35,11 +35,15 @@ and open the template in the editor.
         {
         $('#derror').text("");
          
-        $.post("https://odinzero.github.io/tree_menu/decr.php", {}, function(data) {
-
-            var d = data.toString();
+        $.ajax({
+            type: "post",
+            dataType: 'html',
+            url: 'https://odinzero.github.io/tree_menu/decr.php',
+            success: function(data) 
+            {
+                  var d = data.toString();
             
-             alert("click");
+                  alert("click");
             
           //  var id = "name";
             var id = ["name","city"];
@@ -53,6 +57,10 @@ and open the template in the editor.
                 $('#d_result').html(str_decrypted);
             } else {
                 alert("pass key is wrong !");
+            }
+            },
+            error: function(data) {
+                alert("error");
             }
 
         });
