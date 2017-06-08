@@ -37,9 +37,9 @@ and open the template in the editor.
          
         $.ajax({
             type: "post",
-            dataType: 'jsonp',
-            url: 'https://odinzero.github.io/tree_menu/decr.php',
-            jsonCallback: 'jsonp',
+            dataType: 'html',
+            url: '/decr.php',
+            //jsonCallback: 'jsonp',
             success: function(data) 
             {
                   var d = data.toString();
