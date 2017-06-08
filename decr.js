@@ -1,4 +1,3 @@
-   <script>
 
     $('#decrypt').click(function() {
 
@@ -76,4 +75,4 @@
         }
     }
             
-        </script> 
+   
